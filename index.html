@@ -8,20 +8,27 @@
 </head>
 <body>
     <div class="container">
-        <header>
+        <header class="navbar-topo">
             <section class="logo">
                 <img src="img/Imagem1" alt="Imagem aleatoria">
             </section>
-            <section class="titulo">Empresa</section>
-        </header>
-
-        <div class="conteudo">
-            <nav>
-                <ul>
-                    <li><a href="main.html" title="Conheça a empresa">Pagina Inicial</a>
+           <ul class="menu-topo">
+                    <li>
+                        <a href="index.html" title="Conheça a empresa">Pagina Inicial</a>
                     </li>
                     <li>
                         <a href="contato.html" title="Entre em contato">Fale conosco</a>
+                    </li>
+                </ul>
+        </header>
+
+        <div class="conteudo">
+            <nav class="menu-lateral">
+                <ul>
+                    <li><a href="main.html" title="Conheça a empresa"><i class="bi bi-alexa"></i>  Pagina Inicial</a>
+                    </li>
+                    <li>
+                        <a href="contato.html" title="Entre em contato"><i class="bi bi-alexa"></i> Fale conosco</a>
                     </li>
                 </ul>
             </nav>
@@ -29,12 +36,53 @@
                 <section>
                     <h3>Conteúdo principal</h3>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto maxime illum cumque repellendus labore commodi, expedita a. Laborum, cumque sunt minima, ipsam officiis aperiam praesentium, consequuntur dolor exercitationem est quia!</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Lista de Produtos</th>
+                            </tr>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>01</td>
+                                <td>Agua</td>
+                            </tr>
+                            <tr>
+                                <td>02</td>
+                                <td>Sal</td>
+                            </tr>
+                             <tr>
+                                <td>03</td>
+                                <td>Açucar</td>
+                            </tr>
+                            <tr>
+                                <td>04</td>
+                                <td>Limão</td>
+                            </tr> <tr>
+                                <td>05</td>
+                                <td>Mel</td>
+                            </tr>
+                            <tr>
+                                <td>06</td>
+                                <td>Cheetos</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="2">www.teste.com</td>
+                            </tr>
+                        </tfoot>
+                    </table>
                 </section>
                 <aside><h4>Barra lateral</h4></aside>
             </main>
         </div>
 
-        <footer>Rodapé</footer>
+        <footer>Rodapé </footer>
     </div>    
 </body>
 </html>
